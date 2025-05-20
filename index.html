@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Word Scramble Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔤 Word Scramble Game</h1>
+
+    <!-- Top bar: Score, Timer, Difficulty -->
+    <div class="top-bar">
+      <div class="score">🏆 Score: <span id="score">0</span></div>
+      <div class="timer">⏱️ Time Left: <span id="timer">30</span>s</div>
+      <div class="difficulty">
+        🎯 Difficulty:
+        <select id="difficulty-select">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Game content -->
+    <div class="game-box">
+      <p class="scrambled-word">scrambled</p>
+      <input type="text" placeholder="Guess the word..." class="guess-input"/>
+      <div class="buttons">
+        <button class="refresh-btn">🔄 New Word</button>
+        <button class="check-btn">✅ Check</button>
+      </div>
+      <p class="hint">💡 Hint: <span class="hint-text">loading...</span></p>
+      <p class="message"></p>
+    </div>
+
+    <!-- Sound Effects -->
+   <audio id="scramble-sound" src="scramble.flac" preload="auto" ></audio>
+<audio id="correct-sound" src="correct.wav" preload="auto" ></audio>
+<audio id="wrong-sound" src="wrong.wav" preload="auto" ></audio>
+<audio id="timeup-sound" src="timeup.mp3" preload="auto" ></audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
