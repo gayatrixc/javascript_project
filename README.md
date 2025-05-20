@@ -6,8 +6,6 @@ An interactive and enhanced **Word Scramble Game** built using **HTML**, **CSS**
 
 👉 [Play the Game Now](https://gayatrixc.github.io/javascript_project/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## 🎮 Features
 
 - 🧠 Randomly scrambled words with helpful hints
@@ -35,5 +33,6 @@ An interactive and enhanced **Word Scramble Game** built using **HTML**, **CSS**
 **Gayatri**  
 🔗 [LinkedIn](https://www.linkedin.com/in/gayatri-xc/)   
 📍 Hyderabad, Telangana, India
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
