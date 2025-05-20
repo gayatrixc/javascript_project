@@ -33,6 +33,7 @@ An interactive and enhanced **Word Scramble Game** built using **HTML**, **CSS**
 **Gayatri**  
 🔗 [LinkedIn](https://www.linkedin.com/in/gayatri-xc/)   
 📍 Hyderabad, Telangana, India
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
