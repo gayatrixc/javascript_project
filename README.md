@@ -2,6 +2,10 @@
 
 An interactive and enhanced **Word Scramble Game** built using **HTML**, **CSS**, and **JavaScript**. This game challenges players to unscramble shuffled words within a limited time while tracking their score — with the added fun of sound effects and difficulty levels.
 
+## 🚀 Live Demo
+
+👉 [Play the Game Now](https://gayatrixc.github.io/javascript_project/)
+
 ## 🎮 Features
 
 - 🧠 Randomly scrambled words with helpful hints
